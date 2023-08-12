@@ -1,4 +1,4 @@
-![electroniz3r-small](https://github.com/r3ggi/electroniz3r/assets/15366054/80a5cddf-438e-4ca2-9108-7000cd905b3c)
+![electroniz3r-small](https://github.com/r3ggi/electroniz3r/assets/15366054/161dc5f3-4de2-4291-8b35-c4e0371c86d9)
 
 # electroniz3r
 Take over macOS Electron apps' TCC permissions with electroniz3r. The tool has been presented for the first time on DEFCON31 in Las Vegas during my `ELECTRONizing macOS privacy - a new weapon in your red teaming armory` talk.
