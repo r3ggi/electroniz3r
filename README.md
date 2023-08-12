@@ -5,7 +5,7 @@ Take over macOS Electron apps' TCC permissions
 
 ## Overview
 
-```zsh
+```
 $ electroniz3r
 OVERVIEW: macOS Red Teaming tool that allows code injection in Electron apps
  by Wojciech Reguła (@_r3ggi)
@@ -25,7 +25,7 @@ SUBCOMMANDS:
 
 ### list-apps
 
-```zsh
+```
 $ electroniz3r list-apps
 ╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
 ║    Bundle identifier                      │       Path                                               ║
@@ -41,7 +41,7 @@ com.tinyspeck.slackmacgap                    /Applications/Slack.app
 
 ### verify
 
-```zsh
+```
 $ electroniz3r verify "/Applications/GitHub Desktop.app"
 /Applications/GitHub Desktop.app started the debug WebSocket server
 The application is vulnerable!
@@ -50,7 +50,7 @@ You can now kill the app using `kill -9 7033`
 
 ### inject
 
-```zsh
+```
 $ electroniz3r help inject
 OVERVIEW: Inject code to a vulnerable Electron app
 
