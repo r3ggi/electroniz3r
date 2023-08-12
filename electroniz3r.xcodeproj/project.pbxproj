@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7072A5112A49F0BB00AD870A /* swiftselfietaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7072A5102A49F0BB00AD870A /* swiftselfietaker.swift */; };
+		70D8627D2975883B00E95EF5 /* electroniz3r.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D8627C2975883B00E95EF5 /* electroniz3r.swift */; };
+		70E8349C29758BE400EDB809 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 70E8349B29758BE400EDB809 /* ArgumentParser */; settings = {ATTRIBUTES = (Required, ); }; };
+		70E834A02975A5B400EDB809 /* list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E8349F2975A5B400EDB809 /* list.swift */; };
+		70E834A22976A1DE00EDB809 /* checkvulnerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E834A12976A1DE00EDB809 /* checkvulnerable.swift */; };
+		70E834A42976AA7B00EDB809 /* helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E834A32976AA7B00EDB809 /* helpers.swift */; };
+		70E834A62978007B00EDB809 /* inject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E834A52978007B00EDB809 /* inject.swift */; };
+		70E834A829793C9300EDB809 /* websockets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E834A729793C9300EDB809 /* websockets.swift */; };
+		70E834AA2979452F00EDB809 /* predefinedscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E834A92979452F00EDB809 /* predefinedscripts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		70D862772975883B00E95EF5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7072A5102A49F0BB00AD870A /* swiftselfietaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftselfietaker.swift; sourceTree = "<group>"; };
+		70D862792975883B00E95EF5 /* electroniz3r */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = electroniz3r; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D8627C2975883B00E95EF5 /* electroniz3r.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = electroniz3r.swift; sourceTree = "<group>"; };
+		70E8349F2975A5B400EDB809 /* list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = list.swift; sourceTree = "<group>"; };
+		70E834A12976A1DE00EDB809 /* checkvulnerable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkvulnerable.swift; sourceTree = "<group>"; };
+		70E834A32976AA7B00EDB809 /* helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpers.swift; sourceTree = "<group>"; };
+		70E834A52978007B00EDB809 /* inject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inject.swift; sourceTree = "<group>"; };
+		70E834A729793C9300EDB809 /* websockets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = websockets.swift; sourceTree = "<group>"; };
+		70E834A92979452F00EDB809 /* predefinedscripts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = predefinedscripts.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70D862762975883B00E95EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E8349C29758BE400EDB809 /* ArgumentParser in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70D862702975883B00E95EF5 = {
+			isa = PBXGroup;
+			children = (
+				70D8627B2975883B00E95EF5 /* electroniz3r */,
+				70D8627A2975883B00E95EF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70D8627A2975883B00E95EF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70D862792975883B00E95EF5 /* electroniz3r */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70D8627B2975883B00E95EF5 /* electroniz3r */ = {
+			isa = PBXGroup;
+			children = (
+				70D8627C2975883B00E95EF5 /* electroniz3r.swift */,
+				70E8349F2975A5B400EDB809 /* list.swift */,
+				70E834A12976A1DE00EDB809 /* checkvulnerable.swift */,
+				70E834A32976AA7B00EDB809 /* helpers.swift */,
+				70E834A52978007B00EDB809 /* inject.swift */,
+				70E834A729793C9300EDB809 /* websockets.swift */,
+				70E834A92979452F00EDB809 /* predefinedscripts.swift */,
+				7072A5102A49F0BB00AD870A /* swiftselfietaker.swift */,
+			);
+			path = electroniz3r;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70D862782975883B00E95EF5 /* electroniz3r */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70D862802975883B00E95EF5 /* Build configuration list for PBXNativeTarget "electroniz3r" */;
+			buildPhases = (
+				70D862752975883B00E95EF5 /* Sources */,
+				70D862762975883B00E95EF5 /* Frameworks */,
+				70D862772975883B00E95EF5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = electroniz3r;
+			packageProductDependencies = (
+				70E8349B29758BE400EDB809 /* ArgumentParser */,
+			);
+			productName = electroniz3r;
+			productReference = 70D862792975883B00E95EF5 /* electroniz3r */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70D862712975883B00E95EF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					70D862782975883B00E95EF5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 70D862742975883B00E95EF5 /* Build configuration list for PBXProject "electroniz3r" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70D862702975883B00E95EF5;
+			packageReferences = (
+				70E8349A29758BE400EDB809 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+			);
+			productRefGroup = 70D8627A2975883B00E95EF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70D862782975883B00E95EF5 /* electroniz3r */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70D862752975883B00E95EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E834A42976AA7B00EDB809 /* helpers.swift in Sources */,
+				70E834AA2979452F00EDB809 /* predefinedscripts.swift in Sources */,
+				70E834A829793C9300EDB809 /* websockets.swift in Sources */,
+				70E834A62978007B00EDB809 /* inject.swift in Sources */,
+				70E834A22976A1DE00EDB809 /* checkvulnerable.swift in Sources */,
+				7072A5112A49F0BB00AD870A /* swiftselfietaker.swift in Sources */,
+				70D8627D2975883B00E95EF5 /* electroniz3r.swift in Sources */,
+				70E834A02975A5B400EDB809 /* list.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		70D8627E2975883B00E95EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70D8627F2975883B00E95EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		70D862812975883B00E95EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		70D862822975883B00E95EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70D862742975883B00E95EF5 /* Build configuration list for PBXProject "electroniz3r" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D8627E2975883B00E95EF5 /* Debug */,
+				70D8627F2975883B00E95EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70D862802975883B00E95EF5 /* Build configuration list for PBXNativeTarget "electroniz3r" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D862812975883B00E95EF5 /* Debug */,
+				70D862822975883B00E95EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		70E8349A29758BE400EDB809 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		70E8349B29758BE400EDB809 /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70E8349A29758BE400EDB809 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 70D862712975883B00E95EF5 /* Project object */;
+}
