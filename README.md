@@ -1,3 +1,5 @@
+![electroniz3r-new](https://github.com/r3ggi/electroniz3r/assets/15366054/d0fae7e6-49c2-49d3-acbb-b8af9d0f9a2c)
+
 # electroniz3r
 Take over macOS Electron apps' TCC permissions
 
